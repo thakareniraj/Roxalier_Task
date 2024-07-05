@@ -1,0 +1,27 @@
+.home-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.table-wrapper{
+  margin: 64px auto;
+}
+.month-selector-wrapper{
+  padding: 30px 4px;
+  display: flex;
+  justify-content: center;
+}
+.month-selector-wrapper select{
+  font-size: 1.5rem;
+}
+.home-text{
+  font-family: Rubik;
+  font-size: 38px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.home-section .card{
+  border-radius: 15px;
+}

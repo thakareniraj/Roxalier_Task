@@ -1,0 +1,62 @@
+.App {
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  height: auto;
+  text-align: center;
+  /* background: #1c92d2;
+
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+
+  background: linear-gradient(to right, #f2fcfe, #1c92d2); */
+
+  background: linear-gradient(90deg, #2f6fed1a, #ffffff0d 51.57%, #743aef1f);
+
+
+
+}
+
+.st_viewport {
+  overflow: auto;
+  max-height: 80vh;
+  margin: 20px;
+}
+
+.st_wrap_table {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.st_table_header {
+  background-color: #f7f7f7;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.st_row {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.st_row:last-child {
+  border-bottom: none;
+}
+
+.st_column {
+  flex: 1;
+  padding: 5px;
+}
+
+.st_column._rank {
+  width: 50px;
+}
+
+.st_column._name,
+.st_column._surname,
+.st_column._year,
+.st_column._section {
+  flex: 2;
+}

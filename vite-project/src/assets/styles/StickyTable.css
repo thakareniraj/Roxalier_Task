@@ -1,0 +1,26 @@
+
+.table-section{
+    margin-top: 40px;
+}
+
+.table-container{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+}
+
+.pagination select{
+    width: auto;
+}
+
+.pagination-text{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
